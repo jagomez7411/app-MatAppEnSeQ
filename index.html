@@ -9,11 +9,21 @@
   <link rel="stylesheet" href="css/tema10.min.css"/>
   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
-  <!--grupo JavaScript-->
+  
+   <!--grupo JavaScript-->
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.mobile-1.4.5.min.js"></script>
   <script src="phonegap.js"></script>
-  
+  <style>
+  #cajon1{
+float:left;
+}
+#cajon2{
+float:right;
+}
+</style>
+
+  </head>
  <div data-role="page" id="Principal" data-theme="a">
    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
     <h1>MatEnSeQ</h1> 
@@ -23,37 +33,48 @@
        <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
        <li class="ui-first-child ui-last-child">
           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-            <h2>PreÁlgebra</h2>
-            <p>Temas sobre la preálgebra, conceptos, videos, ejemplos, ejercicios y enlaces</p>
+            <h2>PreÁlgebra.</h2>
+           <h4> Temas sobre la preálgebra, Conceptos, Videos, ejemplos, ejercicios y enlaces.</h4>
           </a>  
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-             <h2>Álgebra Elemental</h2>
-            <p>Temas sobre el Álgebra Elemental, conceptos, videos, ejemplos, ejercicios y enlaces</p>
+             <h2>Álgebra Elemental.</h2>
+            <h4>Temas sobre el Álgebra Elemental, Conceptos, Videos, ejemplos, ejercicios y enlaces.</h4>
            </a>
        </li>
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-              <h2>DESARROLLADOR</h2>
-              <p>Datos del desarrollador</p>
+              <h2>Desarrollador.</h2>
+              <h4>Datos del desarrollador.</h4>
            </a>   
        </li>
        </ul>
      </div>
+     <div><br><br>
+       <strong>IMPORTANTE: <br>
+     Para utilizar esta aplicación es necesario estar conectado a Internet, mediante WIFI o con el uso de datos.
+     </strong></div>
+     <div align="center">
+     <br>
+     <br>
+     <img src="imagenes/portada.jpg" width="70%" height="50%">
+     </div>
      </div>
      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div>
    
-  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
         <h1>PreÁlgebra</h1>
      </div>
@@ -68,7 +89,7 @@
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina1-2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-             <h2>Números racionales e irracionales</h2>
+             <h2>Números racionales e irracionales.</h2>
             </a>
        </li>
        <li class="ui-first-child ui-last-child">
@@ -78,43 +99,45 @@
        </li>
 <li class="ui-first-child ui-last-child">
           <a href="#Pagina1-4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-            <h2>Mínimo común múltiplo</h2>
+            <h2>Mínimo común múltiplo.</h2>
           </a>  
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina1-5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-             <h2>Máximo común dividor</h2>
+             <h2>Máximo común dividor.</h2>
             </a>
        </li>
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina1-6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-              <h2>Fracciones</h2>
+              <h2>Fracciones.</h2>
           </a>   
        </li>
       <li class="ui-first-child ui-last-child">
            <a href="#Principal" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-              <h2>Regresar a la Página Pincipal</h2>
+              <h2>Regresar a la Página Pincipal.</h2>
           </a>   
        </li>        
        </ul>
      </div>
     </div>
     
-      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
+        </div>
         </div>
      </div>
    </div>
    
  
-    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-        <h1>Álgebra Elemental</h1>
+        <h1>Álgebra Elemental.</h1>
      </div>
      <div data-role="content" align="center">
      
@@ -127,7 +150,7 @@
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina2-2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-             <h2>Lenguaje algebraico</h2>
+             <h2>Lenguaje algebraico.</h2>
             </a>
        </li>
        <li class="ui-first-child ui-last-child">
@@ -137,49 +160,51 @@
        </li>
 <li class="ui-first-child ui-last-child">
           <a href="#Pagina2-4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-            <h2>Ecuaciones algebraicas</h2>
+            <h2>Ecuaciones algebraicas.</h2>
           </a>  
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina2-5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-             <h2>Ecuaciones lineales</h2>
+             <h2>Ecuaciones lineales.</h2>
             </a>
        </li>
        <li class="ui-first-child ui-last-child">
            <a href="#Pagina2-6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-              <h2>Sistema de ecuaciones</h2>
+              <h2>Sistema de ecuaciones.</h2>
           </a>   
        </li>  
        <li class="ui-first-child ui-last-child">
            <a href="#Principal" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-              <h2>Regresar a la Página Pincipal</h2>
+              <h2>Regresar a la Página Pincipal.</h2>
           </a>   
        </li>         
        </ul>
      </div>
      </div>
-    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+        </div>
 </div> 
     
     
 <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-          <h1>Desarrolador</h1>
+          <h1>Desarrollador</h1>
        </div>
        <div data-role="content" align="center">
-           <div style=" border:3px double #FFF;">
+           <div style=" border:3px double #00fFFF;">
            <ul style="font-size:13px; text-align:center;">
-             <h1 style="font-size:30px; text-shadow:3px 1px 1px #333;">Datos del desarrollador</h1>
+             <h1 style="font-size:30px; text-shadow:3px 1px 1px #333;">Datos del Desarrollador</h1>
              <h4 align="center">Participante:</h4> 
-             <h3 align="center">Gomez Hernandez Jose Antonio</h3>
+             <h3 align="center">Gómez Hernández José Antonio</h3>
              <h4 align="center"> Grupo:</h4>
              <h3 align="center">J </h3>
              <h4 align="center">Curso</h4>
@@ -188,16 +213,21 @@
              <h3 align="center">Mtro. Saúl Gandhi Ramírez Díaz</h3>
             </ul>
            </div>
-           </div>
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
-        </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
-        </div>
+            <div align="center">
+    <img src="imagenes/portada.jpg" width="70%" height="50%">
      </div>
+           </div>
+             <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
+        </div>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
+        </div>
+        </div>
+   </div>
    </div>
 <div data-role="page" id="Pagina1-1" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
@@ -210,32 +240,32 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://ponce.inter.edu/cremc/operacion.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=YbLISy0D5v8" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www.aulamatematica.com/Revistas/pdf_revistas/22_7/22_7_08_Jerarquia.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www.aaamatematicas.com/pro73cx2.htm" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
             <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li>      
                  
@@ -244,18 +274,20 @@
               </div> 
               </div> 
          
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
 </div> 
    
-  <div data-role="page" id="Pagina1-2" data-add-back-btn="true" data-theme="b">
+ <div data-role="page" id="Pagina1-2" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
           <h1>Números racionales e irracionales.</h1>
        </div>
@@ -266,50 +298,52 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://www.vitutor.com/di/re/numero_real.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=CwfaVT4n0SY" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://inst-mat.utalca.cl/tem/sitiolmde/primero/guias-liceo/2012/1-fracciones-0.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/uvg/los-nmeros-racionales-e-irracionales" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
  
-  <div data-role="page" id="Pagina1-3" data-add-back-btn="true" data-theme="b">
+ <div data-role="page" id="Pagina1-3" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
           <h1>Factores y múltiplos.</h1>
        </div>
@@ -320,47 +354,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://www.icarito.cl/2010/03/103-8690-9-7-numeros-naturales-conjunto-n.shtml/" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=BOiuVmNoz70" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.mamutmatematicas.com/muestras/Grado_6-A_Factores_y_multiplos.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/Crisalys/power-ponit-mltiplos-factores-nmeros-primos-y-compuestos" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina1-4" data-add-back-btn="true" data-theme="b">
@@ -374,47 +410,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://www.estudiantes.info/matematicas/minimo_comun_multiplo.htm" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=OsaX_IbhxNg" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www3.gobiernodecanarias.org/medusa/ecoblog/adiamar/files/2012/11/R1.MCM-Y-MCD.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/rvergara09/minimo-comun-multiplo" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina1-5" data-add-back-btn="true" data-theme="b">
@@ -428,47 +466,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://www.estudiantes.info/matematicas/maximo_comun_divisor.htm" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=FgoDPeZIcsc" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www.cimat.mx/especialidad.seg/actual/documentos/algoritmos2.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/logosacademyeduec/mximo-comn-divisor" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina1-6" data-add-back-btn="true" data-theme="b">
@@ -482,47 +522,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="https://mx.smartickmethod.com/matematicas/fracciones.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=vB4uMRgSz-s" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.matematicasonline.es/cidead/libros/1eso/temas/05-Fracciones.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/avlvertigo1616/fracciones-para-secundaria-1" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina1" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
 <div data-role="page" id="Pagina2-1" data-add-back-btn="true" data-theme="b">
@@ -536,32 +578,32 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="https://didactalia.net/comunidad/materialeducativo/recurso/concepto-de-variables-relaciones-entre-variables/629e1163-c907-4054-8a03-981e9f143946" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=aN6tefpOPQ8" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEO</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.mat.ucm.es/~rrdelrio/publica/ejer_problemas_1_3eso.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/RaquelJR/variables-matematicas" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
             <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li>      
                  
@@ -570,18 +612,20 @@
               </div> 
               </div> 
          
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
 </div> 
    
-  <div data-role="page" id="Pagina2-2" data-add-back-btn="true" data-theme="b">
+ <div data-role="page" id="Pagina2-2" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
           <h1>Lenguaje algebraico.</h1>
        </div>
@@ -592,50 +636,52 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://calculo.cc/Problemas/Problemas_bachillerato/primero_ciencias_sociales/problemas_tipo/probl_leng_algebraico.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=inXDPRWpr04" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEOS</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.thatquiz.org/es/previewtest?REUC5183" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/refugio58/iniciacin-al-lenguaje-algebraico" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
  
-  <div data-role="page" id="Pagina2-3" data-add-back-btn="true" data-theme="b">
+ <div data-role="page" id="Pagina2-3" data-add-back-btn="true" data-theme="b">
        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
           <h1>Expresiones algebraicas.</h1>
        </div>
@@ -646,47 +692,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="https://www.educ.ar/recursos/14948/expresiones-algebraicas" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=qevUkbFHJ8I" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEOS</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://recursostic.educacion.es/descartes/web/materiales_didacticos/EDAD_2eso_cat_expressions_algebraiques/2esoquincena5.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/GustavoBojorquez/expresiones-algebraicas-25559419" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina2-4" data-add-back-btn="true" data-theme="b">
@@ -700,47 +748,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://auladematematica2secundaria.blogspot.mx/2010/03/expresiones-algebraicas.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=c6dLIClwd3A" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEOS</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www.uv.es/lonjedo/esoProblemas/3eso6ecuaciones1grado.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/nicox/expresiones-algebraicas-1403528" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina2-5" data-add-back-btn="true" data-theme="b">
@@ -754,47 +804,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="https://www.matesfacil.com/ESO/Ecuaciones/resueltos-sistemas-ecuaciones.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=LDJCl59hX7c" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEOS</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://inst-mat.utalca.cl/tem/sitiolmde/octavo/guiasoctavo/8-guia-materia-ec-lineales-jp.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/danceerart/ecuaciones-lineales-15970174" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
 
  <div data-role="page" id="Pagina2-6" data-add-back-btn="true" data-theme="b">
@@ -808,47 +860,49 @@
                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
                  <li class="ui-first-child ui-last-child">
                  <a href="http://www.educapeques.com/educacion-secundaria/matematicas-segundo-eso/sistemas-de-ecuaciones-de-dos-incognitas-matematicas-segundo-de-eso.html" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>CONCEPTOS</h6>
+                   <h6>Conceptos.</h6>
                   </a>
                  </li> 
                    <li class="ui-first-child ui-last-child">
                  <a href="https://www.youtube.com/watch?v=G2XqWVPFfpc" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>VIDEOS</h6>
+                   <h6>Video Youtube.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="http://www.edu.xunta.gal/centros/iescastroalobrevilagarcia/system/files/Ejercicios%20de%20sistemas%20de%20ecuaciones.pdf" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>EJEMPLOS Y EJERCICIOS</h6>
+                   <h6>Ejemplos y Ejercicios.</h6>
                   </a>
                  </li>
                    <li class="ui-first-child ui-last-child">
                  <a href="https://es.slideshare.net/tamazunchale2012/sistema-de-ecuaciones-lineales-13779797" target="_self" data-role="button" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-                   <h6>ENLACES A INTERNET</h6>
+                   <h6>Enlaces a Internet.</h6>
                   </a>
                  </li> 
              <li class="ui-first-child ui-last-child">
                  <a href="#Pagina2" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA ANTERIOR </h6>
+                   <h6>Regresar página anterior. </h6>
                   </a>
                  </li> 
                  <li class="ui-first-child ui-last-child">
                  <a href="#Principal" target="_self" data-role="button" class="ui-btn ui-btn-icon-left ui-icon-carat-l">
-                   <h6>REGRESAR PAGINA PRINCIPAL </h6>
+                   <h6>Regresar página principal. </h6>
                   </a>
                  </li> 
                 </ul>
               </div> 
        </div> 
        </div>   
-          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-        <div>
-           <img src="res/android/mdpi.png" width="46" height="60">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <div id="cajon1">
+           <img src="res/android/mdpi.png" width="40" height="50">
         </div>
-        <div>
-          <h6>PROYECTO APLICACION EDUCATIVA</h6>
-          <h6>GOMEZ HERNANDEZ JOSE ANTONIO</h6>
+        <div id="cajon2">
+          Proyecto Aplicación Educativa<br>
+          Gómez Hernández José Antonio
         </div>
-     </div>
+        </div>
+   </div>
    </div> 
    
   </div> 
